@@ -115,19 +115,12 @@
 
 
 <script lang="ts">
-import Vue from 'vue'
-const VueInputMask = require('vue-inputmask').default
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
-Vue.use(VueInputMask)
-
-import BootstrapVue from 'bootstrap-vue'
-
-Vue.use(BootstrapVue)
-
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-export default Vue.extend({
-    
-    
+@Component({ 
 })
+
+export default class Pagamento extends Vue {
+    codeConfirm: number = 0;
+}
 </script>

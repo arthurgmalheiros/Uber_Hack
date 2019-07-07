@@ -8,15 +8,15 @@ import LoginConfirm from '@/views/LoginConfirm.vue';
 
 const VueInputMask = require('vue-inputmask').default
 
-Vue.use(VueInputMask)
+Vue.use(VueInputMask);
 
 Vue.use(Router);
 const router = new Router({
   routes: [
         { 
-        path: '/',
-        name: 'LogIn',
-        component: LogIn,
+            path: '/',
+            name: 'LogIn',
+            component: LogIn,
         },
         {
             path: '/HomeApp',
@@ -32,6 +32,8 @@ const router = new Router({
             path: '/Pagamento',
             name: 'Pagamento',
             component: Pagamento,
+        },
+        {
             path: '/LoginConfirm',
             name: 'LoginConfirm',
             component: LoginConfirm,

@@ -7,7 +7,7 @@
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
                 <div style="margin: 8px 0 !important;" class="wrapper">
-                    <input slot="input" class="search" v-on:keyup="storePN(phoneNumber)" id="PHONENUMBER" placeholder="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="phoneNumber" required />
+                    <input slot="input" class="search" id="PHONENUMBER" placeholder="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="phoneNumber" required />
                     <input class="submit" type="submit" @click="$router.push('LoginConfirm')" value="Continuar"/>
                 </div>
                 <div>
@@ -65,11 +65,6 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 })
 
 export default class Login extends Vue {
-    phoneNumber: string =  localStorage.getItem('CADASTRO_PN') || '';
-
-    storePN(phoneNumber:any){
-        localStorage.setItem('CADASTRO_PN', phoneNumber);
-    }
-
+    phoneNumber: string =  '';
 }
 </script>
