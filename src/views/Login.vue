@@ -6,12 +6,14 @@
             <span style="text-align:center;color:white;font-size:17pt;">Sempre à frente</span>
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
-                <DivInput style="margin: 8px 0 !important;">
-                    <input slot="input" class="search" id="PASSWORD" placeholder="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="phoneInput" required  />
+                <DivInput style="margin: 8px 0 !important;" class="wrapper">
+                    <input slot="input" class="search" id="PASSWORD" placeholder="Telefone" label="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
                     <input class="submit" type="submit" value="Continuar"/>
                 </DivInput>
-                <label class="cadastro">Não tem uma conta?</label>
-                <div class="cadastro" style="color:orange" v-on:click="goToRegister()"> Cadastre-se</div>
+                <div v-on:click="goForgotPassword()">
+                    <label class="cadastro">Não tem uma conta?</label>
+                    <div class="cadastro" style="color:orange" v-on:click="goForgotPassword()"> Cadastre-se</div>
+                </div>
             </form>
         </div>
         
@@ -67,6 +69,7 @@ import Vue from 'vue'
 const VueInputMask = require('vue-inputmask').default
 
 Vue.use(VueInputMask)
+import "firebase/auth";
 
 export default Vue.extend({
     
