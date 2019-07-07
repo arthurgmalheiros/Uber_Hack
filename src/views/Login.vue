@@ -3,7 +3,7 @@
         <div>
             <!-- Logo da organização -->
             <img style="margin-left:auto;margin-right:auto;display:block;padding:60px 0 10px 0;" src="../assets/logo.png" />
-            <span style="text-align:center;color:white;font-size:17pt;">Sempre a frente</span>
+            <span style="text-align:center;color:white;font-size:17pt;">Sempre à frente</span>
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
                 <DivInput style="margin: 8px 0 !important;" class="wrapper">
