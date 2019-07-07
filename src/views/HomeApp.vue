@@ -3,17 +3,71 @@
         <div class="header">
             <p class="header-title">EVENTOS</p>
         </div>
-        <!-- <div class="row margin-bottom-35 homeTabs">
+        <div class="row margin-bottom-35 homeTabs">
             <ul class="tabs">
                 <li class="tab"><a>Todos</a></li>
-                <li class="tab"><a>Eu vou</a></li>
             </ul>
-        </div> -->
-        
+        </div>
+        <div class="events">
+            <div class="card" v-on:click="clickEvent(eventId)">
+                <div class="card-event">
+                    <span class="card-title" style="padding:20px;">Olhos D'Agua</span>
+                    <img src="../assets/car.svg"/>
+                    <p class="card-info">Rua Henrique</p>
+                    <p class="card-date">Hoje de 05:00 às 07:00</p>
+                </div>
+            </div>
+            <div class="card" v-on:click="clickEvent(eventId)">
+                <div class="card-event">
+                    <span class="card-title" style="padding:20px;">Olhos D'Agua</span>
+                    <img src="../assets/car (2).svg"/>
+                    <p class="card-info">Rua Henrique</p>
+                    <p class="card-date">Hoje de 05:00 às 07:00</p>
+                </div>
+            </div>
+            <div class="card" v-on:click="clickEvent(eventId)">
+                <div class="card-event">
+                    <span class="card-title" style="padding:20px;">Olhos D'Agua</span>
+                    <img src="../assets/car (1).svg"/>
+                    <p class="card-info">Rua Henrique</p>
+                    <p class="card-date">Hoje de 05:00 às 07:00</p>
+                </div>
+            </div>
+            <div class="card" v-on:click="clickEvent(eventId)">
+                <div class="card-event">
+                    <span class="card-title" style="padding:20px;">Olhos D'Agua</span>
+                    <img src="../assets/car.svg"/>
+                    <p class="card-info">Rua Henrique</p>
+                    <p class="card-date">Hoje de 05:00 às 07:00</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </template>
 
 <style>
+.card-event {
+    margin-bottom:20px!important;
+}
+.events {
+    margin: auto;
+    width: 100%;
+    padding-left: 15%;
+}
+.content {
+    width: 100%;
+    height: 100%;
+}
+.card {
+    border-radius: 7px;
+    width: 80%;
+    height: 20%;
+}
+.body {
+    background-color: #c0c0c0;
+    height: 100vh;
+}
 .tabs {
     display: inline-block;
 }
@@ -27,12 +81,6 @@
     text-transform: capitalize!important;
 }
 .tabs{
-    border-bottom: 1px solid #d2d2d2;
-}
-.tabs .tab a:hover,
-.tabs .tab a.active {
-    color: #333333 !important;
-    font-weight: 500 !important;
     border-bottom: 5px solid rgba(45, 104, 196, 0.9)!important;
 }
 .tabs .tab a:focus {
@@ -52,7 +100,10 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
-@Component({ 
+@Component({
+    props: {
+        name : String, initialDate: String, location: String
+    }
 })
 
 export default class HomeApp extends Vue {
