@@ -6,22 +6,16 @@
             <span style="text-align:center;color:white;font-size:17pt;">Sempre à frente</span>
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
-                <DivInput style="margin: 8px 0 !important;" class="wrapper">
-                    <input slot="input" class="search" id="PASSWORD" placeholder="Telefone" label="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
-                    <input class="submit" type="submit" value="Continuar"/>
-                </DivInput>
-                <div v-on:click="goForgotPassword()">
+                <div style="margin: 8px 0 !important;" class="wrapper">
+                    <input slot="input" class="search" v-on:keyup="storePN(phoneNumber)" id="PHONENUMBER" placeholder="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="phoneNumber" required />
+                    <input class="submit" type="submit" @click="$router.push('LoginConfirm')" value="Continuar"/>
+                </div>
+                <div>
                     <label class="cadastro">Não tem uma conta?</label>
-                    <div class="cadastro" style="color:orange" v-on:click="goForgotPassword()"> Cadastre-se</div>
+                    <div class="cadastro" style="color:orange" @click="$router.push('Cadastro')"> Cadastre-se</div>
                 </div>
             </form>
         </div>
-        
-        <ModalCodigo v-if="modal" @close="modal = false" icon="error_outline" :content="msgModal">
-            <div class="display-flex SIM" slot="footer">
-                <DefaultButton classDiv="width-45 in_the_middle" name-button="OK" class-component="button-modal" v-on:buttonCallBack="hideModal"/>
-            </div>
-        </ModalCodigo>
     </div>
 </template>
 
@@ -65,13 +59,17 @@
 
 
 <script lang="ts">
-import Vue from 'vue'
-const VueInputMask = require('vue-inputmask').default
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
-Vue.use(VueInputMask)
-import "firebase/auth";
-
-export default Vue.extend({
-    
+@Component({ 
 })
+
+export default class Login extends Vue {
+    phoneNumber: string =  localStorage.getItem('CADASTRO_PN') || '';
+
+    storePN(phoneNumber:any){
+        localStorage.setItem('CADASTRO_PN', phoneNumber);
+    }
+
+}
 </script>

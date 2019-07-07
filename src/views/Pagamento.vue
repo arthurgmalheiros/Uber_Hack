@@ -7,7 +7,7 @@
             
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
-                <DivInput style="margin: 8px 0 !important;" class="wrapper">
+                <div style="margin: 8px 0 !important;" class="wrapper">
                 <p class="text_left">Dados de Contato</p><br> 
                     
                     <div class="box_aux">   
@@ -16,14 +16,13 @@
                         
                     </div>
 
-                   <input slot="input" class="box" id="NºDOCARTAO" placeholder="Nº do Cartão" label="nºdocartão" v-mask="'9999-9999-9999-9999'":maxlength="18"   v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
+                    <input slot="input" class="box" id="NºDOCARTAO" placeholder="Nº do Cartão" label="nºdocartão" v-mask="'9999-9999-9999-9999'" :maxlength="18" v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
 
                     <input slot="input" class="box" id="NOMEDOCARTAO" placeholder="Nome do Cartão" label="nomedocartao"  v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
-                     <input slot="input" class="mini_box" id="mm/yyyy" placeholder="MM/YYYY" label="Y/M" v-mask="'99/9999'":maxlength="7"   v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
-                     <input slot="input" class="mini_box" id="cvv" placeholder="CVV" label="CVV" v-mask="'999'":maxlength="18"   v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
+                     <input slot="input" class="mini_box" id="mm/yyyy" placeholder="MM/YYYY" label="Y/M" v-mask="'99/9999'" :maxlength="7" v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
+                     <input slot="input" class="mini_box" id="cvv" placeholder="CVV" label="CVV" v-mask="'999'" maxlength="18" v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
 
-                </DivInput>
-             
+                </div>             
             </form>
         </div>
         

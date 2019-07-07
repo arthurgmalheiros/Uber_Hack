@@ -7,7 +7,7 @@
             
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
-                <DivInput style="margin: 8px 0 !important;" class="wrapper">
+                <div style="margin: 8px 0 !important;" class="wrapper">
                 <p class="text_left">Dados de Contato</p><br> 
                     
                     <input slot="input" class="box" id="NOME" placeholder="Nome Completo" label="nome"   v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
@@ -41,7 +41,7 @@
                     <input type="checkbox" v-model="checked">
                     <input slot="input" id="OUTROS" placeholder="Outros" label="outros"   v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  >
                     </div>
-                </DivInput>
+                </div>
              
             </form>
         </div>

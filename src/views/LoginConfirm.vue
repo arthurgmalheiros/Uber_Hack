@@ -6,19 +6,13 @@
             <span style="text-align:center;color:white;font-size:17pt;">Sempre a frente</span>
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
-                <DivInput style="margin: 8px 0 !important;">
-                    <input slot="input" class="search" id="CODE" placeholder="_ _ _ _ _ _" v-mask="'9 9 9 9 9 9'" :maxlength="12" v-model="codeConfirm" required  />
-                    <input class="submit" type="submit" value="Continuar"/>
-                </DivInput>
+                <div style="margin: 8px 0 !important;">
+                    <input slot="input" class="search" id="CODE" placeholder="_ _ _ _ _ _" v-mask="'9 9 9 9 9 9'" :maxlength="12" v-model="codeConfirm" required />
+                    <input class="submit" type="submit" value="Validar"/>
+                </div>
                 <label class="cadastro">Informe o código que enviamos para o seu telefone.</label>
             </form>
         </div>
-        
-        <ModalCodigo v-if="modal" @close="modal = false" icon="error_outline" :content="msgModal">
-            <div class="display-flex SIM" slot="footer">
-                <DefaultButton classDiv="width-45 in_the_middle" name-button="OK" class-component="button-modal" v-on:buttonCallBack="hideModal"/>
-            </div>
-        </ModalCodigo>
     </div>
 </template>
 
@@ -63,12 +57,12 @@
 
 
 <script lang="ts">
-import Vue from 'vue'
-const VueInputMask = require('vue-inputmask').default
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
-Vue.use(VueInputMask)
-
-export default Vue.extend({
-    
+@Component({ 
 })
+
+export default class LoginConfirm extends Vue {
+    codeConfirm: number = null;
+}
 </script>

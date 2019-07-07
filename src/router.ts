@@ -6,6 +6,10 @@ import Cadastro from '@/views/Cadastro.vue';
 import Pagamento from '@/views/Pagamento.vue';
 import LoginConfirm from '@/views/LoginConfirm.vue';
 
+const VueInputMask = require('vue-inputmask').default
+
+Vue.use(VueInputMask)
+
 Vue.use(Router);
 const router = new Router({
   routes: [
