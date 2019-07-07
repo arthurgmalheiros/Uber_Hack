@@ -4,6 +4,7 @@ import HomeApp from '@/views/HomeApp.vue';
 import LogIn from '@/views/Login.vue';
 import Cadastro from '@/views/Cadastro.vue';
 import Pagamento from '@/views/Pagamento.vue';
+import LoginConfirm from '@/views/LoginConfirm.vue';
 
 Vue.use(Router);
 const router = new Router({
@@ -27,6 +28,9 @@ const router = new Router({
             path: '/Pagamento',
             name: 'Pagamento',
             component: Pagamento,
+            path: '/LoginConfirm',
+            name: 'LoginConfirm',
+            component: LoginConfirm,
         }
     ]
 });

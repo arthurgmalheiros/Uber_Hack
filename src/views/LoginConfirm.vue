@@ -3,15 +3,14 @@
         <div>
             <!-- Logo da organização -->
             <img style="margin-left:auto;margin-right:auto;display:block;padding:60px 0 10px 0;" src="../assets/logo.png" />
-            <span style="text-align:center;color:white;font-size:17pt;">Sempre à frente</span>
+            <span style="text-align:center;color:white;font-size:17pt;">Sempre a frente</span>
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
                 <DivInput style="margin: 8px 0 !important;">
-                    <input slot="input" class="search" id="PASSWORD" placeholder="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="phoneInput" required  />
+                    <input slot="input" class="search" id="CODE" placeholder="_ _ _ _ _ _" v-mask="'9 9 9 9 9 9'" :maxlength="12" v-model="codeConfirm" required  />
                     <input class="submit" type="submit" value="Continuar"/>
                 </DivInput>
-                <label class="cadastro">Não tem uma conta?</label>
-                <div class="cadastro" style="color:orange" v-on:click="goToRegister()"> Cadastre-se</div>
+                <label class="cadastro">Informe o código que enviamos para o seu telefone.</label>
             </form>
         </div>
         
@@ -53,10 +52,11 @@
 }
 
 .cadastro {
-    font-size: 18px!important;
+    width: 80%;
+    font-size: 17px!important;
     color: white;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 5%;
     display: inline-block!important;
 }
 </style>
