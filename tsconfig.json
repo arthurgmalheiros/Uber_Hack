@@ -1,0 +1,50 @@
+{
+    "compilerOptions": {
+      "skipLibCheck": true,
+      "target": "esnext",
+      "module": "esnext",
+      "strict": true,
+      "jsx": "preserve",
+      "importHelpers": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "removeComments" : false,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "types": [
+        "webpack-env",
+        "webrtc",
+        "@types/webrtc"
+      ],
+      "paths": {
+        "@/*": [
+          "src/*"
+        ]
+      },
+      "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable",
+        "scripthost"
+      ]
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx",
+      "src/**/*.vue",
+      "tests/**/*.ts",
+      "tests/**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+    "files" : [
+      "./node_modules/cordova-plugin-device/types/index.d.ts",
+      "typings/globals/cordova/index.d.ts",
+      "typings/globals/cordova-plugin-device/index.d.ts",
+      "typings/globals/cordova-plugin-android-imei/index.d.ts"
+    ]
+  }  
