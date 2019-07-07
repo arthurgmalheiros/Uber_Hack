@@ -5,8 +5,6 @@ import 'materialize-css';
 import 'materialize-css/dist/css/materialize.css';
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 import './stylesheet/app.scss';
-import './stylesheet/components.scss';
-import './stylesheet/views.scss';
 
 Vue.config.productionTip = true;
 Vue.config.devtools = true;
