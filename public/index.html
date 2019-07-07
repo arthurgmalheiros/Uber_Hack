@@ -5,25 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy” content=”default-src https://codepush.azurewebsites.net 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; connect-src 'self' ws:;">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <link href="fonts.css" rel="stylesheet">
     <link href="vivify.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" type="text/css" href="card/card.css"/>
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <!--TO TITLE CASE-->
     <script src="to-title-case.js"></script>
-    <!-- FONTAWESOME ICONS -->
-    <script defer src="fontawesome/js/all.js"></script>
-    <!-- FEATHER ICONS -->
-    <script src="feather.min.js"></script>
-    <!--QR READER -->
-    <script src="qrcode.min.js"></script>
-    <!--QR SCANNER-->
-    <script src="cordova-plugin-qrscanner-lib.min.js"></script>
-    <script src="cordova.js"></script>
     <title>DinUP</title>
   </head>
   <body>
@@ -33,7 +20,8 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
     <script src="jquery.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="card/card.js"></script>
+    <script src="./node_modules/inputmask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.js"></script>
+    <script src="./node_modules/inputmask/dist/inputmask/inputmask.js"></script>
+    <script src="./dist/vue-inputmask-browser.js"></script>
   </body>
 </html>
