@@ -1,0 +1,1263 @@
+//Early Variables
+html{
+    // Early App Settings
+        --main-font: 'Ubuntu', sans-serif;
+        --main-font-color: black;
+    // End App Settings
+
+    // Early Colors
+        --primary-color: #2D68C4;
+        --secundary-color: #11386B;
+    // End Colors
+    }
+// End Variables
+
+// Early QrcodeTicket
+
+    .bottom-qrcode-ticket{
+        position: absolute;
+        width: 100%;
+        bottom: 20%;
+    }
+
+    .top-qrcode-ticket{
+        position: absolute;
+        width: 100%;
+        top: 13%;
+    }
+
+// End QrcodeTicket
+
+// Early AddCard
+
+    .addCard > div > form > .selectField{
+        height: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .addCard > div > form > .selectField > div{
+        margin-bottom: 0 !important; 
+    }
+
+    .select-wrapper input.select-dropdown{
+        color: #9e9e9e;
+        font-size: 1rem !important;
+    }
+
+    input#CARD_FULL_NAME{
+        text-transform: uppercase !important;
+    }
+
+// End AddCard
+
+// Early AlterarEndereco
+
+    .center-two-elements {
+        display: inline-flex;
+        margin: auto;
+        width: 80%;
+    }
+
+    .center-two-elements > div {
+        width: 50%;
+    }
+
+    .width-49 {
+        width: 49%;
+    }
+
+    .fluxo-perfil .bottom-10 {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+
+    .inp-right {
+        position: absolute;
+        right: 10%;
+    }
+
+    .half-width {
+        width: 42%;
+    }
+
+    .half-width > div {
+        width: 100%;
+    }
+
+    .inputfile {
+        width: auto;
+        height: auto;
+        opacity: 0;
+        overflow: hidden;
+        z-index: -1;
+        color: white;
+        display: none;
+    }
+
+    .inputfile + label {
+        max-width: 192px !important;
+        text-transform: uppercase;
+        height: 36px;
+        font-weight: bold;
+        background-color: transparent;
+        line-height: 100% !important;
+        padding: 0 16px;
+        border-radius: 2px;
+        border: 2px solid var(--primary-color);
+        color: var(--primary-color);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    
+    .inputfile:focus + label,
+    .inputfile + label:hover,
+    .inputfile + label:focus {
+        background-color: var(--primary-color);
+        border-radius: 2px;
+        color: white;
+        border: 2px solid var(--primary-color);
+        cursor: pointer;
+    }
+
+    @media (max-width: 350px) {
+        .bottom-10 {
+            position: relative;
+            width: 100%;
+            bottom: none;
+        }
+    }
+
+// End AlterarEndereco
+
+// Early AlterarSenha
+
+    .title-senha {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .alterar-senha > .bottom-10 {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+    }
+
+    .width-45 {
+        width: 45%;
+    }
+
+    .SIM a,
+    .two {
+        width: 45%;
+        margin-left: 24px;
+    }
+
+// End AlterarSenha
+
+// Early Balance, BuyCredit
+
+    .footer-see-orders {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background: var(--primary-color) !important;
+    }
+
+    .footer-see-orders > span {
+        margin: auto;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .clean-footer-see-orders {
+        margin-bottom: 50px !important;
+    }
+
+    #app > div > div > div > div > div.modal-body.row.margin-none > div > div > div > input{
+        color: white !important;
+        text-align: center;
+    }
+
+    .collection.row.margin-bottom-7{
+        border-top-color: transparent !important;
+            border-bottom-color: transparent !important;
+
+    }
+
+    .section-title{
+        border-bottom: 1px solid var(--primary-color);
+        color: var(--primary-color) !important;
+        font-size: 0.7em;
+    }
+
+    @media (max-height: 460px){
+        .footer-see-orders {
+            display: none;
+        }
+    }
+
+// End Balance, BuyCredit
+
+// Early BuyEventTicket
+
+    .row.title_event{
+        padding: 5px;
+        color: var(--primary-color);
+    }
+
+    .table_header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0 !important;
+    }
+
+    .ticketsList{
+        box-shadow: 0px 0px 14px -2px rgba(0, 0, 0, 0.75);
+        margin: 10px 8px;
+        border-radius: 6px;
+        padding: 10px;
+    }
+
+// End BuyEventTicket
+
+// Early Cadastros
+
+    .padding-cadastro{
+        padding: 10px 30px 10px 30px;
+    }
+
+    label {
+        transition: 0s !important
+    }
+
+// End Cadastros
+
+// Early CarteiraDigital
+
+    .label-intro-carteira {
+        font-weight: 500;
+    }
+    .label-intro-carteira-top {
+        border-bottom: 2px solid var(--primary-color) !important;
+        padding-bottom: 0 !important;
+        margin: 0 10% !important;
+    }
+    .label-intro-carteira-bot {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .label-intro-carteira-bot2 {
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-top: -2px !important;
+    }
+
+    .margin-top-none{
+        margin-top: 0 ! important;
+    }
+
+    .padding-none{
+        padding: 0 !important;
+    }
+
+    .border_bottom_shadow{
+        border-bottom: 2px solid #d4d4d4;
+    }
+
+    .card-carteira {
+        border-radius: 15px;
+        height: 410px;
+        margin: 0 5%;
+        box-shadow: 0px 1px 1px 1px rgb(158, 158, 158);
+        overflow: hidden;
+        position: relative;
+    }
+    .card-carteira .top {
+        background: rgba(0, 0, 0, 0.05);
+        height: 45%;
+    }
+    .card-carteira .bottom {
+        padding-top: 5px;
+        height: 55%;
+    }
+    .card-carteira .top .image-container {
+        padding: 10px 20% 0 20%;
+        margin-bottom: 0px;
+        height: 110px;
+        display: flex;
+        margin: unset;
+        justify-content: center;
+    }
+    .card-carteira .top .image-container > div > img {
+        border-radius: 100%;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .card-carteira .bottom .qrcode-container {
+        margin-bottom: 0px;
+        height: 205px;
+        display: flex;
+    }
+    .card-carteira .bottom .qrcode-container #qrcode {
+        width: calc(200px - 1rem);
+        height: calc(200px - 1rem);
+        margin: auto;
+    }
+    .card-carteira .bottom .qrcode-container #qrcode img {
+        width: 100%;
+        height: 100%;
+    }
+    .card-carteira .bottom .qrcode-container #qrcodeD {
+        width: calc(200px - 1rem);
+        height: calc(200px - 1rem);
+        margin: auto;
+    }
+    .card-carteira .bottom .qrcode-container #qrcodeD img {
+        width: 100%;
+        height: 100%;
+    }
+    .bottom .progress {
+        height: 10px !important;
+        background-color: white !important;
+        margin: 0.5rem 0 1rem 0 !important;
+    }
+    .progress .determinate {
+        height: 100% !important;
+        background-color: var(--primary-color) !important;
+    }
+
+    .qrcode_heigth{
+        display: flex;
+        justify-content: center;
+    }
+
+    .qrcode_heigth > img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .flex_column{
+        flex-direction: column;
+    }
+
+    .striper.ingress{
+        padding: 10px !important;
+        margin-bottom: 10px !important;
+        margin-top: -10px;
+    }
+
+    .ticket.carousel{
+        height: auto !important;
+        overflow: visible;
+        margin: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .centralizado{
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel_tickets > button{
+        display: none !important;
+    }
+
+    .slick-dots li button{
+        box-shadow: none !important;
+        background-color: transparent !important;
+    }
+
+    .slick-dots li button:hover{
+        box-shadow: none !important;
+        background-color: transparent !important;
+    }
+
+    .slick-slide .slick-current .slick-active{
+        width: 100%;
+    }
+
+    .mensagem{
+        color: white;
+    }
+
+    .carteiraDigital > .homeTabs{
+        margin-bottom: 0 !important;
+    }
+    
+    @media(max-width: 370px){
+        .card-carteira{
+            margin: 0 !important;
+            transform: scale(.84, .84);
+        }
+        .balanceComponents{
+            transform: scale(.84, .84);
+        }
+    }
+
+    @media (max-height: 460px){
+        .footer-logo {
+            display: none;
+        }
+    }
+
+    @media (max-height: 625px){
+        .carteiraDigital .footer-logo {
+            display: none;
+        }
+    }
+
+    @media (max-width: 365px){
+        #striperAddBalance{
+            margin: 0;
+        }
+    }
+
+// End CarteiraDigital
+
+// Early CreditSuccess
+
+    .creditsuccess .meio{
+        position: absolute;
+        bottom: 30%;
+        left: 0;
+        right: 0;
+    }
+
+// End CreditSuccess
+
+// Early Dependent
+
+    .btn_edit_dependent{
+        width: 100% !important;
+        border: 2px solid var(--primary-color) !important;
+    }
+
+    .used_month{
+        text-align: left;
+        color: var(--primary-color);
+    }
+
+    .card_number{
+        color: rgba(0, 0, 0, 0.42);;
+    }
+
+    .used_value{
+        text-align: right;
+        color: #4a4a4a;
+    }
+
+    .switch_habilitar{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .value_green{
+        color: #26D223 !important;
+    }
+
+// End Dependent
+
+// Early Dependents
+
+    .preferences{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .in_the_middle{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .preferences > .preferences-input{
+        width: 56%;
+        margin-left: auto;
+    }
+
+    .preferences > .preferences-button{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .preferences > .preferences-button > div > button{
+        width: 70%;
+    }
+
+    .width-80{
+        width: 80% !important;
+    }
+
+    .btn-cancel{
+        border: 2px solid !important;
+    }
+
+// End Dependents
+
+// Early EscolherUnidade, FilterEvents, SelectEventWithMenu
+
+    .full-height > .selectField > .material-select{
+        margin-bottom: 0 !important;
+    }
+
+    .label-introducao {
+        margin-bottom: 0;
+    }
+
+    .label-subtitulo > a {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+
+    .btn-bottom-0 {
+        position: absolute;
+        width: 100%;
+        bottom: 10%;
+    }
+
+    .full-height > .compDatepickerrow > .metade > .date > input{
+        margin-bottom: 0px !important;
+    }
+
+    .margin-top-bottom-10{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .margin-top-bottom-15{
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .margin-bottom-8{
+        margin-bottom: 8px;
+    }
+
+// End EscolherUnidade
+
+// Early EventDetails
+
+    .data-evento {
+        margin-bottom: 15px;
+    }
+
+    .info .info-left, .info .info-right {
+        display: inline-block;
+        padding-top: 5px;
+    }
+
+    .info .info-middle {
+        display: inline-block;
+        width: calc(100% - 88px);
+        left: 42px;
+    }
+
+    .image_content{
+        position: relative;
+        display: flex;
+    }
+
+    .image_content > .title_event{
+        position: absolute;
+        bottom: 0;
+        margin-left: 2%;
+        color: white;
+        font-weight: 600;
+        margin-bottom: 2%;
+        text-align: left !important;
+    }
+
+    .event_image > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .event_image{
+        width: 100%;
+        height: 256px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .msgTitle.visibleHeader {
+        font-size: 13px;
+        margin-top: 8px;
+        color: var(--primary-color) !important;
+    }
+
+    .msgTitle{
+        color: white !important;
+        transition: .2s;
+    }
+
+    .w-100.image-half > img{
+        width: 100% !important;
+        margin:20px;
+    }
+
+    .event-details > .info{
+        padding: 10px;
+    }
+
+    .justify{
+        justify-content: space-between;
+    }
+
+    .margin-bottom-15{
+        margin-bottom: 15px;
+    }
+
+    .margin-bottom-10{
+        margin-bottom: 10px;
+    }
+
+    .vertical{
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+    .section-title{
+        border-bottom: 2px solid var(--primary-color);
+        color: var(--primary-color);
+        font-size: 1.3em;
+    }
+
+    .about{
+        text-align: justify;
+    }
+
+    .display-flex{
+        display: flex;
+    }
+
+    .name-ticket{
+        text-align: left;
+    }
+
+    .price-ticket{
+        color: var(--primary-color);
+        font-weight: 500;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+// End EventDetails
+
+// Early Events
+
+    .visibility-hidden{
+        visibility: hidden;
+    }
+
+    .card_events_content{
+        display: flex !important;
+        justify-content: space-evenly !important;
+        -webkit-flex-flow: row wrap !important;
+    }
+
+    .full-height {
+        height: 100%;
+    }
+
+    .events-top-wrapper {
+        min-height: calc(100% - 58px);
+    }
+
+    .striper.events{
+        background-color: transparent;
+        margin:10px 0;
+        width: 100%;
+    }
+
+    .striper.events > div > a{
+        color: var(--primary-color);
+    }
+
+// End Events
+
+// Early FilterEvents
+
+    .margin-top {
+        margin-top: 2rem;
+        margin-bottom: 0 !important;
+    }
+
+    .bottom-10-large {
+        position: absolute !important;
+    }
+
+    @media (max-height: 670px) {
+        .bottom-10-large {
+            position: relative !important;
+        }
+    }
+
+// End FilterEvents
+
+// Early HomeApp
+
+    .home .shortcuts {
+        // height: 77%;
+    }
+
+    .home #carouselNews {
+        height: 32vh !important;
+    }
+
+    .top-fix-home {
+        margin-top: 46px;
+    }
+
+    .section-title{
+        color: black;
+        font-weight: 300;
+        margin-left: 15px;
+    }
+
+    .section-title.ajuste{
+        color: black !important;
+        border-bottom: 0 !important;
+        font-weight: 500;
+    }
+
+    .text-left{
+        text-align: left;
+        margin-top: 3px;
+    }
+
+    .separator{
+        height: 4px;
+        background-color: #EAEAEA;
+    }
+
+    .schedule {
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    #pedidos-em-andamento {
+        border-radius: 15px 15px 0 0;
+        box-shadow: 1px -2px 5px 0px #585656c9;
+        opacity: 1;
+        height: 500px !important;
+        z-index: 0;
+        transition: 0.5s;
+    }
+
+    .opacity1{
+        opacity: 1 !important;
+    }
+
+    .openedCurrentOrders{
+        transform: translateY(-420px)
+    }
+    
+    .slider-bottom {
+        position: fixed !important;
+        top: calc(100% - 130px) !important;
+    }
+
+    #pedidos-em-andamento > div {
+        background-color: white;;
+        text-align: left;
+        padding: 10px;
+        display: flex;
+    }
+
+    .border-100 {
+        height: 80px;
+    }
+
+    .details{
+        padding: 10px 10px;
+        font-size: 16px;
+        text-align: center;
+        color: var(--primary-color) !important;
+    }
+
+// End HomeApp
+
+// Early InfoView
+
+    .info-view > img{
+        width: 50% !important;
+    }
+
+    .title-info{
+        font-size: 25px;
+        color: var(--secundary-color) !important;
+        font-weight: normal;
+    }
+
+    .na-recebi{
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .margin-top-15{
+        margin-top: 10%;
+    }
+
+// End InfoView
+
+// Early NewsDetails
+
+    .image_content{
+        position: relative;
+        display: flex;
+    }
+
+    .news-content {
+        white-space: normal;
+        text-align: left;
+    }
+
+    .news-content img {
+        max-width: 100%;
+    }
+
+    .image_content > .title_news{
+        position: absolute;
+        bottom: 0;
+        margin-left: 2%;
+        color: white;
+        font-weight: 600;
+        margin-bottom: 2%;
+    }
+
+    .title_news.category-name {
+        max-width: calc(100% - 10px);
+    }
+
+    .news_image > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .news_image{
+        width: 100%;
+        height: 256px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .msgTitle.visibleHeader {
+        font-size: 13px;
+        margin-top: 8px;
+        color: var(--primary-color) !important;
+    }
+
+// End NewsDetails
+
+// Early NominateTicket
+
+    .container-retirada {
+        margin: 0 10px;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .nominate_card{
+        margin: 8px;
+        border-radius: 6px;
+        -webkit-box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+    }
+
+    [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+        background-color: var(--primary-color) !important;
+    }
+
+    [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
+        border: 2px solid var(--primary-color) !important;
+    }
+
+// End NominateTicket
+
+// Early Perfil
+
+    .margin-auto {
+        margin: auto;
+    }
+
+    .btn-change-photo.perfil {
+        background-color: var(--primary-color) !important;
+        border-radius: 50%;
+        width: 37px !important;
+        height: 37px !important;
+        min-width: 0 !important;
+        color: white;
+        position: absolute;
+        top: 140px;
+        right: 33%;
+        font-size: 26px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: 0px; */
+        padding: 5px !important;
+        text-align: center;
+    }
+
+    .btn-change-photo.perfil i {
+        font-size: 26px !important;
+    }
+
+    .btn-change-photo.perfil {
+        border-radius: 50% !important;
+    }
+
+    @media (max-width: 350px) {
+        .bottom-10 {
+            position: relative;
+            width: 100%;
+            bottom: none;
+        }
+    }
+
+// End Perfil
+
+// Early QrcodeProduct, QrcodeTicket
+
+    .qrcode_product > div > div > .count_ball{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bottom .qrcode-container {
+        margin-bottom: 0px;
+        height: 205px;
+        display: flex;
+    }
+
+    .bottom .qrcode-container #qrcode {
+        width: calc(200px - 1rem);
+        height: calc(200px - 1rem);
+        margin: auto;
+    }
+
+    .bottom .qrcode-container #qrcode img {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .bottom .qrcode-container #qrcodeD {
+        width: calc(200px - 1rem);
+        height: calc(200px - 1rem);
+        margin: auto;
+    }
+
+    .bottom .qrcode-container #qrcodeD img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .progress {
+        height: 10px !important;
+        background-color: white !important;
+        margin: 0 !important;
+    }
+
+    .progress .determinate {
+        height: 100% !important;
+        background-color: var(--primary-color) !important;
+    }
+
+    .event-name {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+// End QrcodeProduct, QrcodeTicket
+
+// Early Tickets
+
+    .qrcode_heigth{
+        display: flex;
+        justify-content: center;
+    }
+
+    .qrcode_heigth > img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .flex_column{
+        flex-direction: column;
+    }
+
+    .striper.ingress{
+        padding: 10px !important;
+        margin-bottom: 10px !important;
+        margin-top: -10px;
+    }
+
+    .ticket.carousel{
+        height: auto !important;
+        overflow: visible;
+        margin: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .centralizado{
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel_tickets > button{
+        display: none !important;
+    }
+
+    .slick-dots li button{
+        box-shadow: none !important;
+        background-color: transparent !important;
+    }
+
+    .slick-dots li button:hover{
+        box-shadow: none !important;
+        background-color: transparent !important;
+    }
+
+// End Tickets
+
+// Early LerQrMesa
+
+    .lerQrMesa > .info_message{
+        position: absolute;
+        width: 100%;
+        top: calc(100% - 120px);
+    }
+
+    .lerQrMesa > .molduraQr{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .lerQrMesa > .molduraQr > .moldura{
+        height: 300px;
+        width: 300px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .lerQrMesa > .molduraQr > .moldura > div{
+        width: 60px;
+        height: 60px;
+    }
+
+    .lerQrMesa > .molduraQr > .moldura > .left_top{
+        position: absolute;
+        top:0;
+        left: 0;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+    }
+
+    .lerQrMesa > .molduraQr > .moldura > .right_top{
+        position: absolute;
+        top:0;
+        right: 0;
+        border-top: 3px solid black;
+        border-right: 3px solid black;
+    }
+
+    .lerQrMesa > .molduraQr > .moldura > .left_bot{
+        position: absolute;
+        bottom:0;
+        left: 0;
+        border-bottom: 3px solid black;
+        border-left: 3px solid black;
+    }
+
+    .lerQrMesa > .molduraQr > .moldura > .right_bot{
+        position: absolute;
+        bottom:0;
+        right: 0;
+        border-bottom: 3px solid black;
+        border-right: 3px solid black;
+    }
+
+// End LerQrMesa
+
+    .buy-credit .option-card .item-middle {
+        width: 33%;
+    }
+
+// Early Ingressos
+
+    .footer-buy-tickets{
+        position: fixed;
+        bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background: var(--primary-color);
+    }
+
+    .footer-buy-tickets > span {
+        margin: auto;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .dependentTicket{
+        opacity: 0.6;
+    }
+
+// End Ingressos
+
+// Early Produtos
+
+.categoriaSelecionada{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+// End Produtos
+
+// Early About
+
+    .justify-center{
+        display: flex;
+        justify-content: center;
+    }
+
+// End About
+
+// Early MenuPedidos
+
+    .menu-pedidos .striper {
+        margin-bottom: 0;
+    }
+    .menu-pedidos .footer-logo, .eventsMenu .footer-logo, .minha-area .footer-logo{
+        // bottom: 35px !important;
+    }
+
+// End MenuPedidos
+
+// LogIn
+
+    .text-underline{
+        text-decoration: underline;
+    }
+
+// LogIn
+
+.lista-pessoas .list-left {
+    width: 100%;
+    text-align: left;
+}
+
+.lista-pessoas .list-right {
+    text-align: right;
+}
+
+.lista-pessoas .list-separator {
+    width: 10px;
+    margin: 0 10px;
+}
+
+.icon-eye-input {
+    display: flex; 
+    align-items: flex-end; 
+    flex-direction: row-reverse; 
+    position: relative; 
+    bottom: 40px;
+    left: 85vw;
+    width: fit-content;
+}
+@media (min-height: 610px){
+
+    .newsHeight{
+        height: calc(100vh - 407px) !important;
+    }
+
+    .newsHeight #slider{
+        height: calc(100vh - 417px) !important;
+        width: 83%;
+        position: relative;
+        display: flex;
+    }
+
+    .newsHeight #slider .slider-cards{
+        height: 100% !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .newsHeight #slider .slider-cards img{
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+    .newsHeight #slider .slider-info{
+        display: flex;
+        margin-top: auto;
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+    }
+    .newsHeight #slider .slider-info h1{
+        margin: 10px 0 10px 0 !important;
+        line-height: 1.2 !important;
+        padding: 0 !important;
+        font-size: 22px !important;
+        font-weight: bold;
+    }
+    
+}
+
+@media (min-height: 610px) and (min-width: 414px){
+    .newsHeight #slider{
+        width: 83%;
+    }
+}
+
+@media (max-width: 320px){
+    .newsHeight #slider{
+        width: 83%;
+    }
+}
+
+.detailsPadding{
+    padding: 1% 18px !important;
+    font-size: 120%;
+}

@@ -1,5 +1,5 @@
 <template>
-    <div class="div-start view-login" style="justify-content:space-between; position: relative; min-height: 100vh; background-color:#5A5AD4;">
+    <div class="div-start view-login" style="justify-content:space-between; position: relative; min-height: 100vh; background:#5A5AD4 repeat;">
         <div>
             <!-- Logo da organização -->
             <img style="margin-left:auto;margin-right:auto;display:block;padding:60px 0 10px 0;max-width:250px;" src="../assets/logo.png" />
@@ -7,57 +7,35 @@
             
             <!-- Formulário -->
             <form style="padding: 0 1.1rem;">
-                <div style="margin: 8px 0 !important;" class="wrapper">
-                <p class="text_left">Dados de Contato</p><br> 
-                    
-                    <input slot="input" class="box" id="NOME" placeholder="Nome Completo" label="nome"   v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
+                <div style="margin: 8px 0 !important;" class="wrapper">                    
+                    <input slot="input" class="box" id="NOME" placeholder="Nome Completo" label="nome" v-model="name" required  />
 
-                   <input slot="input" class="box" id="CPF" placeholder="CPF" label="cpf" v-mask="'999-999-999-99'":maxlength="13"   v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
+                    <input slot="input" class="box" id="CPF" placeholder="CPF" label="cpf" v-mask="'999.999.999-99'" :maxlength="14" v-model="cpf" required  />
 
-                    <input slot="input" class="box" id="PASSWORD" placeholder="Telefone" label="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  />
-
-                    <p class="text">Você dirige para quais aplicativos?</p><br>
-                    <div>
-                    <b-form-checkbox  id="99" >
-                    99
-                    </b-form-checkbox>
-                    </div>
-                     <div>
-                    <b-form-checkbox  id="Uber" >
-                    Uber
-                    </b-form-checkbox>
-                    </div>
-                     <div>
-                    <b-form-checkbox  id="Cabify" >
-                    Cabify
-                    </b-form-checkbox>
-                    </div>
-                     <div>
-                    <b-form-checkbox  id="Taxi" >
-                    Taxi
-                    </b-form-checkbox>
-                    </div>
-                    <div>
-                    <input type="checkbox" v-model="checked">
-                    <input slot="input" id="OUTROS" placeholder="Outros" label="outros"   v-model="passInput" v-on:focusout="passInputOut" v-show="!showPasswd" required  >
-                    </div>
+                    <input slot="input" class="box" id="PASSWORD" placeholder="Telefone" label="Telefone" v-mask="'(99) 99999-9999'" :maxlength="15" v-model="phoneNumber" required />
                 </div>
-             
+                <div style="margin-top: 50px;">
+                    <a class="button" @click="$router.push('HomeApp')">Cadastrar</a>
+                </div>
             </form>
         </div>
-        
-        <ModalCodigo v-if="modal" @close="modal = false" icon="error_outline" :content="msgModal">
-            <div class="display-flex SIM" slot="footer">
-                <DefaultButton classDiv="width-45 in_the_middle" name-button="OK" class-component="button-modal" v-on:buttonCallBack="hideModal"/>
-            </div>
-        </ModalCodigo>
     </div>
 </template>
 
 <style>
 
-.box {
-	padding: 0 10px!important;
+.button {
+    width: 100%;
+    padding: 10px 50px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.input {
 	font-size: 18px!important;
 	width: 80%!important;
 	max-width: 300px!important;
@@ -65,7 +43,7 @@
 	border: 0px!important;
     border-radius: 10px 10px 10px 10px!important;
     background: white!important;
-    margin: 10% 19% 0 0!important;
+    margin-top: 0!important;
 }
 
 .submit {
@@ -83,14 +61,6 @@
     box-shadow: 4px 4px 3px 0px rgba(0,0,0,0.24);   
 }
 
-.text_left {
-    font-size: 18px!important;
-    color: white;
-    text-align: left!important;
-    padding-top: 5%;
-    width: 100%;
-   
-}
 .text {
     font-size: 18px!important;
     color: white;
@@ -104,19 +74,14 @@
 
 
 <script lang="ts">
-import Vue from 'vue'
-const VueInputMask = require('vue-inputmask').default
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
-Vue.use(VueInputMask)
-
-import BootstrapVue from 'bootstrap-vue'
-
-Vue.use(BootstrapVue)
-
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-
-export default Vue.extend({
-    
-    
+@Component({ 
 })
+
+export default class Cadastro extends Vue {
+    name: string = '';
+    cpf: string = '';
+    phoneNumber: string = '';
+}
 </script>
