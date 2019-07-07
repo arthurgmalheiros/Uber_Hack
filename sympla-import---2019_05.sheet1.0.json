@@ -1,0 +1,922 @@
+getJsonCallback({
+  "global": {
+    "version": "3.1sv123",
+    "generator": "MSheetsAO",
+    "language": "en",
+    "created": "2019-05-10T19:55:06.693Z",
+    "filename": "sympla-import---2019/05.sheet1.0.json",
+    "uid": "ea06375a1ede04c7cc55f0613cf8e802f4ee7c9a9d1fad46535ce9dc0c09ddb6",
+    "sharing": "Share this .json file for View access with whom you want to view your map, then send them your map Url link"
+  },
+  "headers": [
+    "name",
+    "date",
+    "time",
+    "place",
+    "url"
+  ],
+  "fields": {
+    "filter": "time",
+    "name": "place",
+    "address": "place"
+  },
+  "groupBy": {
+    "title": "time",
+    "list": [
+      {
+        "value": "18h45-22h40",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Blue.svg"
+        },
+        "color": "Blue",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "19h  - 11 de maio de 2019",
+        "qty": 4,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Brown.svg"
+        },
+        "color": "Brown",
+        "tag": " (4)",
+        "checked": true
+      },
+      {
+        "value": "19h-21h",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Aqua.svg"
+        },
+        "color": "Aqua",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "19h-22h30",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Green.svg"
+        },
+        "color": "Green",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "19h-23h",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Magenta.svg"
+        },
+        "color": "Magenta",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "19h30-22h10                                 Mais eventos deste produtor",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Orange.svg"
+        },
+        "color": "Orange",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "20h  - 11 de maio de 2019",
+        "qty": 7,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Purple.svg"
+        },
+        "color": "Purple",
+        "tag": " (7)",
+        "checked": true
+      },
+      {
+        "value": "20h  - 12 de maio de 2019",
+        "qty": 3,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Red.svg"
+        },
+        "color": "Red",
+        "tag": " (3)",
+        "checked": true
+      },
+      {
+        "value": "20h-21h30                                 Mais eventos deste produtor",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Yellow.svg"
+        },
+        "color": "Yellow",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "20h-22h",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Maroon.svg"
+        },
+        "color": "Maroon",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "20h-23h30",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Gray.svg"
+        },
+        "color": "Gray",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "20h30-22h",
+        "qty": 2,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Lime.svg"
+        },
+        "color": "Lime",
+        "tag": " (2)",
+        "checked": true
+      },
+      {
+        "value": "20h30-23h",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Olive.svg"
+        },
+        "color": "Olive",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "21h  - 11 de maio de 2019",
+        "qty": 5,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Teal.svg"
+        },
+        "color": "Teal",
+        "tag": " (5)",
+        "checked": true
+      },
+      {
+        "value": "21h30  - 07 de julho de 2019",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/HotPink.svg"
+        },
+        "color": "HotPink",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "22h  - 11 de maio de 2019",
+        "qty": 12,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Aquamarine.svg"
+        },
+        "color": "Aquamarine",
+        "tag": " (12)",
+        "checked": true
+      },
+      {
+        "value": "23h  - 11 de maio de 2019",
+        "qty": 5,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/LightSteelBlue.svg"
+        },
+        "color": "LightSteelBlue",
+        "tag": " (5)",
+        "checked": true
+      },
+      {
+        "value": "23h30  - 11 de maio de 2019",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/BlueViolet.svg"
+        },
+        "color": "BlueViolet",
+        "tag": " (1)",
+        "checked": true
+      },
+      {
+        "value": "23h59  - 30 de maio de 2019",
+        "qty": 1,
+        "icon": {
+          "url": "//thexs-host.firebaseapp.com/icons/pins/Chartreuse.svg"
+        },
+        "color": "Chartreuse",
+        "tag": " (1)",
+        "checked": true
+      }
+    ]
+  },
+  "filters": [],
+  "html": {
+    "infowindow": "https://thexs-mapping.firebaseapp.com/xm-infowindow.html",
+    "listing": "https://thexs-mapping.firebaseapp.com/xm-listing.html"
+  },
+  "custom": {
+    "pageTitle": "Mapping by theXS",
+    "hideFilters": false,
+    "showPlace": false,
+    "placeRadius": 10,
+    "placeUnit": "km",
+    "placeFilter": false,
+    "filtersQty": 0,
+    "mapCenterOnClick": true,
+    "styledMap": "",
+    "markerCluster": true,
+    "markerClusterMinimumClusterSize": 5,
+    "markerClusterMaxZoom": 15,
+    "listingOpenInfowindow": true,
+    "listingExportNewTab": true,
+    "layers": {
+      "circles": {
+        "radiusUnit": "km",
+        "fillOpacity": 0.15
+      },
+      "heatmap": {
+        "fillOpacity": 0.6
+      }
+    },
+    "titleTemplate": null,
+    "listingTemplate": null
+  },
+  "mapBoundsSwNe": {
+    "sw": {
+      "lat": -19.9784745,
+      "lng": -44.0261264
+    },
+    "ne": {
+      "lat": -19.8338609,
+      "lng": -43.9139396
+    }
+  },
+  "locations": [
+    {
+      "latitude": -19.9397845,
+      "longitude": -43.9408447,
+      "properties": {
+        "name": "ORATÓRIA E DESINIBIÇÃO",
+        "date": "10 de maio de 2019",
+        "time": "23h59  - 30 de maio de 2019",
+        "place": "Condomínio do Edifício Plaza Center - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/oratoria-e-desinibicao__504820"
+      },
+      "id": 0,
+      "uid": 2
+    },
+    {
+      "latitude": -19.938785,
+      "longitude": -43.9359434,
+      "properties": {
+        "name": "Hot Zone - Anos 2000",
+        "date": "10 de maio de 2019",
+        "time": "23h30  - 11 de maio de 2019",
+        "place": "DDuck DClub - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/hot-zone---anos-2000__512634"
+      },
+      "id": 1,
+      "uid": 3
+    },
+    {
+      "latitude": -19.9166813,
+      "longitude": -43.9344931,
+      "properties": {
+        "name": "★ MIENTRAS DURA ★ 4 años c/ Justin Strauss (NY)",
+        "date": "10 de maio de 2019",
+        "time": "23h  - 11 de maio de 2019",
+        "place": "Belo Horizonte - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/-mientras-dura--4-anos-c-justin-strauss-ny__514135"
+      },
+      "id": 2,
+      "uid": 4
+    },
+    {
+      "latitude": -19.9205697,
+      "longitude": -43.9448328,
+      "properties": {
+        "name": "CheideVibe n'o Mercado 10|05",
+        "date": "10 de maio de 2019",
+        "time": "23h  - 11 de maio de 2019",
+        "place": "O Mercado  - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/cheidevibe-no-mercado-1005__513010"
+      },
+      "id": 3,
+      "uid": 5
+    },
+    {
+      "latitude": -19.9230613,
+      "longitude": -43.943161,
+      "properties": {
+        "name": "Alta Fidelidade na Central!",
+        "date": "10 de maio de 2019",
+        "time": "23h  - 11 de maio de 2019",
+        "place": "A Central - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/alta-fidelidade-na-central__518396"
+      },
+      "id": 4,
+      "uid": 6
+    },
+    {
+      "latitude": -19.9679847,
+      "longitude": -43.9573761,
+      "properties": {
+        "name": "Luau de Outono - UM44k",
+        "date": "10 de maio de 2019",
+        "time": "23h  - 11 de maio de 2019",
+        "place": "Clube Chalezinho - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/luau-de-outono---um44k__502247"
+      },
+      "id": 5,
+      "uid": 7
+    },
+    {
+      "latitude": -19.9371841,
+      "longitude": -43.9377773,
+      "properties": {
+        "name": "FUNK FACTORY",
+        "date": "10 de maio de 2019",
+        "time": "23h  - 11 de maio de 2019",
+        "place": "Club Factory - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/funk-factory__523132"
+      },
+      "id": 6,
+      "uid": 8
+    },
+    {
+      "latitude": -19.9354285,
+      "longitude": -43.93654189999999,
+      "properties": {
+        "name": "@bsurda lol 10/5 sex @ LoL",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "LOL BHZ - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/bsurda-lol-105-sex--lol__500023"
+      },
+      "id": 7,
+      "uid": 9
+    },
+    {
+      "latitude": -19.9242388,
+      "longitude": -43.9191429,
+      "properties": {
+        "name": "Xia Mané - Ed. Super Especial",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Café Bier - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/xia-mane---ed-super-especial__518105"
+      },
+      "id": 8,
+      "uid": 10
+    },
+    {
+      "latitude": -19.9192894,
+      "longitude": -43.9595107,
+      "properties": {
+        "name": "FÁBRICA MIX SEXTA 10/05",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "A FABRICA - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/fabrica-mix-sexta-1005__522050"
+      },
+      "id": 9,
+      "uid": 11
+    },
+    {
+      "latitude": -19.9371846,
+      "longitude": -43.9369026,
+      "properties": {
+        "name": "Roger Deff – lançamento do Etnografia Suburbana”",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "A Autêntica - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/roger-deff---lancamento-do-etnografia-suburbana__502559"
+      },
+      "id": 10,
+      "uid": 12
+    },
+    {
+      "latitude": -19.9464455,
+      "longitude": -43.93547650000001,
+      "properties": {
+        "name": "10/05.SEXTA ✭ Amsterdam Pub ✭ LOCOMOTIVE (Guns N' Roses) + SEU MADRUGA (AC/DC) + LED iii",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Amsterdam Pub - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/1005sexta--amsterdam-pub--locomotive-guns-n-roses--seu-madruga-acdc--led-iii__523190"
+      },
+      "id": 11,
+      "uid": 13
+    },
+    {
+      "latitude": -19.9223835,
+      "longitude": -43.95870439999999,
+      "properties": {
+        "name": "The Best Night ( Aquecimento )",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Leblon do Prado - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/the-best-night--aquecimento-__507197"
+      },
+      "id": 12,
+      "uid": 14
+    },
+    {
+      "latitude": -19.970138,
+      "longitude": -43.9557152,
+      "properties": {
+        "name": "Sextey - Sexta-feira (10/05)",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Night Market - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/sextey---sexta-feira-1005__517950"
+      },
+      "id": 13,
+      "uid": 15
+    },
+    {
+      "latitude": -19.9242845,
+      "longitude": -43.9458473,
+      "properties": {
+        "name": "Cruelty and the Beast",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Matriz Bar - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/cruelty-and-the-beast__496335"
+      },
+      "id": 14,
+      "uid": 16
+    },
+    {
+      "latitude": -19.884,
+      "longitude": -44.0058835,
+      "properties": {
+        "name": "MUSTACHE |MC RICK | Sexta | 10/05 | 21 HORAS | ESCRITÓRIO BEER",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Escritório Beer - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/mustache-mc-rick--sexta--1005--21-horas--escritorio-beer__522073"
+      },
+      "id": 15,
+      "uid": 17
+    },
+    {
+      "latitude": -19.9733686,
+      "longitude": -44.0187987,
+      "properties": {
+        "name": "O baile do gêneral",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Boat sky clube - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/o-baile-do-general__511293"
+      },
+      "id": 16,
+      "uid": 18
+    },
+    {
+      "latitude": -19.9465474,
+      "longitude": -43.9355238,
+      "properties": {
+        "name": "Exquece - Major Lock - 10.05",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Major Lock - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/exquece---major-lock---1005__512416"
+      },
+      "id": 17,
+      "uid": 19
+    },
+    {
+      "latitude": -19.9247379,
+      "longitude": -43.9232965,
+      "properties": {
+        "name": "SEXTA HITS TERRA DE MINAS",
+        "date": "10 de maio de 2019",
+        "time": "22h  - 11 de maio de 2019",
+        "place": "Terra De Minas - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/sexta-hits-terra-de-minas__523794"
+      },
+      "id": 18,
+      "uid": 20
+    },
+    {
+      "latitude": -19.9009088,
+      "longitude": -43.92297689999999,
+      "properties": {
+        "name": "Bolero Prime BH Com Mestre Jaime Aroxa",
+        "date": "10 de maio de 2019",
+        "time": "21h30  - 07 de julho de 2019",
+        "place": "ACACIO DE SOUZA - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/bolero-prime-bh-com-mestre-jaime-aroxa__527127"
+      },
+      "id": 19,
+      "uid": 21
+    },
+    {
+      "latitude": -19.9397354,
+      "longitude": -43.9296839,
+      "properties": {
+        "name": "SEXTA JACK | HARD AND HEAVY (HARD ROCK) + VELOTROL (CLÁSSICOS)",
+        "date": "10 de maio de 2019",
+        "time": "21h  - 11 de maio de 2019",
+        "place": "Jack Rock Bar - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/sexta-jack--hard-and-heavy-hard-rock--velotrol-classicos__513672"
+      },
+      "id": 20,
+      "uid": 22
+    },
+    {
+      "latitude": -19.9187456,
+      "longitude": -43.9525259,
+      "properties": {
+        "name": "A Pior Festa do Mundo - Baile do Apocalipse",
+        "date": "10 de maio de 2019",
+        "time": "21h  - 11 de maio de 2019",
+        "place": "Rua Juiz de Fora, 114 - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/a-pior-festa-do-mundo---baile-do-apocalipse__511789"
+      },
+      "id": 21,
+      "uid": 23
+    },
+    {
+      "latitude": -19.9428356,
+      "longitude": -43.9379924,
+      "properties": {
+        "name": "COVERPLAY (COLDPLAY) + FOO FIGHTERS COVER BR + METEORA (LP)",
+        "date": "10 de maio de 2019",
+        "time": "21h  - 11 de maio de 2019",
+        "place": "Lord Pub - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/coverplay-coldplay--foo-fighters-cover-br--meteora-lp__523827"
+      },
+      "id": 22,
+      "uid": 24
+    },
+    {
+      "latitude": -19.9221927,
+      "longitude": -43.9233349,
+      "properties": {
+        "name": "BACK TO FLASH show com a BLITZ",
+        "date": "10 de maio de 2019",
+        "time": "21h  - 11 de maio de 2019",
+        "place": "Ilustríssimo - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/back-to-flash-show-com-a-blitz__497474"
+      },
+      "id": 23,
+      "uid": 25
+    },
+    {
+      "latitude": -19.9113259,
+      "longitude": -43.9198178,
+      "properties": {
+        "name": "SEXTA Caribeña no THE MEXICAN c/ DJs & Double Vodka + Energético (Reggaeton/Pop/Hits) 21H",
+        "date": "10 de maio de 2019",
+        "time": "21h  - 11 de maio de 2019",
+        "place": "THE MEXICAN Gastropub - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/sexta-caribena-no-the-mexican-c-djs--double-vodka--energetico-reggaetonpophits-21h__513322"
+      },
+      "id": 24,
+      "uid": 26
+    },
+    {
+      "latitude": -19.925449,
+      "longitude": -43.9245637,
+      "properties": {
+        "name": "ComicaMente - Show de Hipnose",
+        "date": "10 de maio de 2019",
+        "time": "20h30-22h",
+        "place": "Av. Brasil, 478 - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/comicamente---show-de-hipnose__517613"
+      },
+      "id": 25,
+      "uid": 27
+    },
+    {
+      "latitude": -19.9421014,
+      "longitude": -43.93407939999999,
+      "properties": {
+        "name": "Meire Alves - Como o Senhor me vê",
+        "date": "10 de maio de 2019",
+        "time": "20h30-22h",
+        "place": "Sala São Pedro - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/meire-alves---como-o-senhor-me-ve__493785"
+      },
+      "id": 26,
+      "uid": 28
+    },
+    {
+      "latitude": -19.953338,
+      "longitude": -43.9211421,
+      "properties": {
+        "name": "Saraus no ECA: Gabriel Casara",
+        "date": "10 de maio de 2019",
+        "time": "20h30-23h",
+        "place": "ECA - Espaço de Cultura e Arte - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/saraus-no-eca-gabriel-casara__517320"
+      },
+      "id": 27,
+      "uid": 29
+    },
+    {
+      "latitude": -19.9677388,
+      "longitude": -43.9549329,
+      "properties": {
+        "name": "Sexta LIKE BAR 10/05 OFF ATÉ 23hrs",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 11 de maio de 2019",
+        "place": "Like Bar - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/sexta-like-bar-1005-off-ate-23hrs__522663"
+      },
+      "id": 28,
+      "uid": 30
+    },
+    {
+      "latitude": -19.9164412,
+      "longitude": -43.9321473,
+      "properties": {
+        "name": "QUEM TEM SWING? 4 ANOS / Pré party",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 11 de maio de 2019",
+        "place": "Casa Sapucaí - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/quem-tem-swing-4-anos--pre-party__501716"
+      },
+      "id": 29,
+      "uid": 31
+    },
+    {
+      "latitude": -19.9421597,
+      "longitude": -43.9236792,
+      "properties": {
+        "name": "Guilherme Pimenta Trio no Da Capo!",
+        "date": "10 de maio de 2019",
+        "time": "20h-23h30",
+        "place": "Da Capo! - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/guilherme-pimenta-trio-no-da-capo__517985"
+      },
+      "id": 30,
+      "uid": 32
+    },
+    {
+      "latitude": -19.9160263,
+      "longitude": -43.9315062,
+      "properties": {
+        "name": "O Melhor Show de Comédia do Mundo",
+        "date": "10 de maio de 2019",
+        "time": "20h-21h30                                 Mais eventos deste produtor",
+        "place": "Teatro Nossa Senhora das Dores - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/o-melhor-show-de-comedia-do-mundo__512555"
+      },
+      "id": 31,
+      "uid": 33
+    },
+    {
+      "latitude": -19.8338609,
+      "longitude": -43.9461399,
+      "properties": {
+        "name": "RESENHA do TAMPINHA",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 11 de maio de 2019",
+        "place": "Spettim do Tampinha - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/resenha-do-tampinha__522710"
+      },
+      "id": 32,
+      "uid": 34
+    },
+    {
+      "latitude": -19.9082965,
+      "longitude": -43.91411,
+      "properties": {
+        "name": "JORNADA | PLANOS INCRÍVEIS | 10 A 12 DE MAIO",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 12 de maio de 2019",
+        "place": "Galpão Cine Horto - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/jornada--planos-incriveis--10-a-12-de-maio__510162"
+      },
+      "id": 33,
+      "uid": 35
+    },
+    {
+      "latitude": -19.945946,
+      "longitude": -43.9309531,
+      "properties": {
+        "name": "Brüder Night Sexta  - Villa Prime",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 11 de maio de 2019",
+        "place": "Brüder Butiquim BH  - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/bruder-night-sexta----villa-prime__523670"
+      },
+      "id": 34,
+      "uid": 36
+    },
+    {
+      "latitude": -19.860166,
+      "longitude": -43.9139396,
+      "properties": {
+        "name": "CONFERÊNCIA DE LOUVOR E ADORAÇÃO SEJA LUZ",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 12 de maio de 2019",
+        "place": "Igreja do Evangelho Quadrangular - EYMARD - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/conferencia-de-louvor-e-adoracao-seja-luz__510769"
+      },
+      "id": 35,
+      "uid": 37
+    },
+    {
+      "latitude": -19.926977,
+      "longitude": -43.940844,
+      "properties": {
+        "name": ":: 12 ANOS DO VILLA | Edição :: La casa de Neon",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 12 de maio de 2019",
+        "place": "Villa Paraty - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/-12-anos-do-villa--edicao--la-casa-de-neon__512218"
+      },
+      "id": 36,
+      "uid": 38
+    },
+    {
+      "latitude": -19.9267855,
+      "longitude": -43.9364092,
+      "properties": {
+        "name": "IBD Day 2019",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 11 de maio de 2019",
+        "place": "Associação Médica De Minas Gerais - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/ibd-day-2019__490255"
+      },
+      "id": 37,
+      "uid": 39
+    },
+    {
+      "latitude": -19.9421639,
+      "longitude": -43.9261389,
+      "properties": {
+        "name": "CONEXÃO MUNDO LIVRE S.A.",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 11 de maio de 2019",
+        "place": "Distrital - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/conexao-mundo-livre-sa__498068"
+      },
+      "id": 38,
+      "uid": 40
+    },
+    {
+      "latitude": -19.9457907,
+      "longitude": -43.95223499999999,
+      "properties": {
+        "name": "MAIS FOLIA_Mateus XAVIER & ME ASSUME ou me esquece.",
+        "date": "10 de maio de 2019",
+        "time": "20h  - 11 de maio de 2019",
+        "place": "Garcia Music Bar - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/mais-folia-mateus-xavier--me-assume-ou-me-esquece__519233"
+      },
+      "id": 39,
+      "uid": 41
+    },
+    {
+      "latitude": -19.9325622,
+      "longitude": -43.9396448,
+      "properties": {
+        "name": "Ailton Câmara - Show em Homenagem as Mães",
+        "date": "10 de maio de 2019",
+        "time": "20h-22h",
+        "place": "Teatro Izabela Hendrix - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/ailton-camara---show-em-homenagem-as-maes__501573"
+      },
+      "id": 40,
+      "uid": 42
+    },
+    {
+      "latitude": -19.912285,
+      "longitude": -43.933712,
+      "properties": {
+        "name": "Barlestra com Waldemar França",
+        "date": "10 de maio de 2019",
+        "time": "19h30-22h10                                 Mais eventos deste produtor",
+        "place": "Estúdio Câmera Clara - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/barlestra-com-waldemar-franca__521360"
+      },
+      "id": 41,
+      "uid": 43
+    },
+    {
+      "latitude": -19.9784745,
+      "longitude": -44.0261264,
+      "properties": {
+        "name": "Sexta Universitaria do Praianus",
+        "date": "10 de maio de 2019",
+        "time": "19h  - 11 de maio de 2019",
+        "place": "Praianus Bar - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/sexta-universitaria-do-praianus__522767"
+      },
+      "id": 42,
+      "uid": 44
+    },
+    {
+      "latitude": -19.9680466,
+      "longitude": -43.957347,
+      "properties": {
+        "name": "Sexta no Quintal - 10/05",
+        "date": "10 de maio de 2019",
+        "time": "19h  - 11 de maio de 2019",
+        "place": "Quintal do Chalé - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/sexta-no-quintal---1005__510478"
+      },
+      "id": 43,
+      "uid": 45
+    },
+    {
+      "latitude": -19.9302435,
+      "longitude": -43.9357856,
+      "properties": {
+        "name": "LA TRAVIATA : ÓPERA COMENTADA",
+        "date": "10 de maio de 2019",
+        "time": "19h-21h",
+        "place": "IDEA Espaço Cultural - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/la-traviata--opera-comentada__525570"
+      },
+      "id": 44,
+      "uid": 46
+    },
+    {
+      "latitude": -19.9703778,
+      "longitude": -43.9517323,
+      "properties": {
+        "name": "Workshop sobre Produto Digital",
+        "date": "10 de maio de 2019",
+        "time": "19h  - 11 de maio de 2019",
+        "place": "Samba Tech - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/workshop-sobre-produto-digital__504255"
+      },
+      "id": 45,
+      "uid": 47
+    },
+    {
+      "latitude": -19.9210395,
+      "longitude": -43.94772709999999,
+      "properties": {
+        "name": "Visita Técnica Femsa: Case Internacional Coca-Cola",
+        "date": "10 de maio de 2019",
+        "time": "19h-22h30",
+        "place": "Una Barro Preto - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/visita-tecnica-femsa-case-internacional-coca-cola__489497"
+      },
+      "id": 46,
+      "uid": 48
+    },
+    {
+      "latitude": -19.9293593,
+      "longitude": -43.9346622,
+      "properties": {
+        "name": "Festa Forever Young",
+        "date": "10 de maio de 2019",
+        "time": "19h  - 11 de maio de 2019",
+        "place": "Nossa Casa  - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/festa-forever-young__503865"
+      },
+      "id": 47,
+      "uid": 49
+    },
+    {
+      "latitude": -19.9229518,
+      "longitude": -43.9355579,
+      "properties": {
+        "name": "Coletiva de arte PretasT + Noite IMUNE",
+        "date": "10 de maio de 2019",
+        "time": "19h-23h",
+        "place": "teatro Francisco Nunes - Belo Horizonte , MG",
+        "url": "https://www.sympla.com.br/coletiva-de-arte-pretast--noite-imune__515866"
+      },
+      "id": 48,
+      "uid": 50
+    },
+    {
+      "latitude": -19.935717,
+      "longitude": -43.927828,
+      "properties": {
+        "name": "Tributação em Compras - Materiais - BH",
+        "date": "10 de maio de 2019",
+        "time": "18h45-22h40",
+        "place": "BH Offfice Coworking - Belo Horizonte, MG",
+        "url": "https://www.sympla.com.br/tributacao-em-compras---materiais---bh__519103"
+      },
+      "id": 49,
+      "uid": 51
+    }
+  ],
+  "layers": {
+    "circles": {
+      "radiusUnit": "km",
+      "fillOpacity": 0.15
+    },
+    "heatmap": {
+      "fillOpacity": 0.6
+    }
+  },
+  "extras": {}
+})
