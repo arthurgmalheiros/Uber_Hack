@@ -27,7 +27,7 @@
         "material-design-icons-iconfont": "^3.0.3",
         "materialize-css": "^1.0.0",
         "moment": "^2.24.0",
-        "node-sass": "^4.12.0",
+        "node-sass": "^7.0.0",
         "nprogress": "^0.2.0",
         "pdfvuer": "^1.3.0",
         "pretty-checkbox-vue": "^1.1.9",
